@@ -1,0 +1,150 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="onlineShop">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="logo" type="xs:string" />
+				<xs:element name="shopName" type="xs:string" />
+				<xs:element name="address" type="xs:string" />	
+				<xs:element ref="telephone"/>
+				<xs:element name="websiteAddress" type="xs:string" />
+				<xs:element name="available_Cars" type="xs:string" />
+				<xs:element ref="email" minOccurs="0" maxOccurs="2" />
+				<xs:element ref="items" />
+			</xs:sequence>
+			<xs:attribute name="shopNumber" type="xs:positiveInteger" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="telephone">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="mobile" minOccurs="1" maxOccurs="10" />
+				<xs:element ref="landline" minOccurs="0" maxOccurs="2" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	
+	<xs:element name="mobile" type="xs:integer"/>
+	<xs:element name="landline" type="xs:integer"/>
+	
+	<xs:element name="email">
+		<xs:simpleType>
+ 			<xs:restriction base="xs:string">
+				<xs:pattern value="([0-9a-zA-Z]([\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,7})" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element> 
+
+
+	<xs:element name="items">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="description" type="xs:string" />
+				<xs:element name="quantity" type="xs:positiveInteger" />
+				<xs:element name="manufacturer" type="xs:string" />
+				<xs:element ref="carInformation" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="brandName" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="carInformation">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="model"/>
+				<xs:element name="color" type="xs:string"/>
+				<xs:element name="seatCapacity" type="xs:string"/>
+				<xs:element name="dimension" type="xs:string" minOccurs="0"/>
+				<xs:element ref="moreInfo" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute ref="carType"/>
+			<xs:attribute name="yearModel" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="moreInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="price"/>
+				<xs:element name="quality" type="xs:string"/>
+				<xs:element name="totalkm" type="xs:positiveInteger"/>
+				<xs:element name="fuelCapacity" type="xs:positiveInteger"/>
+				<xs:element name="cylinderCapacity" type="xs:positiveInteger"/>
+				<xs:element name="horsePower" type="xs:string" minOccurs="0"/>
+				<xs:element ref="brake"/>
+				<xs:element ref="engineType"/>
+				<xs:element ref="topBodyMaterial" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="itemNumber" type="xs:positiveInteger"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="price">
+		<xs:simpleType>
+			<xs:restriction base="xs:positiveInteger">
+				<xs:minInclusive value="100000" />
+				<xs:maxInclusive value="7000000" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="brake">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Disc" />
+				<xs:enumeration value="Air" />
+				<xs:enumeration value="Hydralic" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="engineType">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="V-Type"/>
+				<xs:enumeration value="Radial"/>
+				<xs:enumeration value="In-line"/>
+				<xs:enumeration value="L-Type"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="topBodyMaterial">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Hard top" />
+				<xs:enumeration value="Soft top" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+
+	<xs:element name="model">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="SUV" />
+				<xs:enumeration value="HatchBack" />
+				<xs:enumeration value="CrossOver" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:attribute name="carType">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Fuel" />
+				<xs:enumeration value="Electric" />
+				<xs:enumeration value="Hybrid" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+</xs:schema>

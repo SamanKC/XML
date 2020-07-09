@@ -1,0 +1,426 @@
+* {
+    margin:0;
+    padding:0;
+    color: rgb(55, 0, 255);
+}
+
+
+logo {
+    background-image: url("logo.png");
+    height: 110px;
+    width: 250px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+shopName {
+    position: absolute;
+    left: 11em;
+    top: 0px;
+    font-size: 54px;
+    font-style: italic;
+    font-family: fantasy;
+    color: rgb(255, 0, 0);
+}
+
+address {
+    position: absolute;
+    left:35em;
+    top: 3.2em;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    
+}
+
+telephone,mobile::before {
+    content: "Mobile: ";
+    
+}
+
+
+telephone,mobile {
+    position: static;
+    margin-top: -30px;
+    float: right;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+telephone,landline::before {
+    content: "Land-Line: ";
+}
+
+telephone,landline {
+    position: static;
+    margin-top: -23px;
+
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+websiteAddress::before {
+    content: "Website: ";
+}
+
+
+telephone {
+    margin-top: -2.5em;
+    
+}
+websiteAddress {
+    position: absolute;
+    right: 0em;
+    top: 5em;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+email::before {
+    content: "email: ";
+}
+
+email {
+    position: absolute;
+    left: 38.2em;
+    top: 4.9em;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+available_Cars::before{
+    content: "Available Cars: ";
+}
+
+available_Cars {
+    position: absolute;
+    left: 1em;
+    top: 7em;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    
+}
+
+item {
+    background-color: lightgrey;
+    display: block;
+    border: 5px solid green;
+    padding: 10em;
+    top: 3em;
+    margin: 10px;
+    height: 15em;
+    position: relative;
+}
+
+item::before {
+    content: "Brand: " attr(brandName);
+    position: absolute;
+    left: 40em;
+    top: 0em;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+
+manufacturer::before {
+    content: "Manufacturer: ";
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+manufacturer {
+    position: absolute;
+    left: 1em;
+    top: 0em;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+    
+}
+
+
+description {
+    position: absolute;
+    left: 3em;
+    top: 2em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+quantity::before {
+    content: "Quantity: ";
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+quantity {
+    position: absolute;
+    left: 3em;
+    top: 5em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+carInformation::before {
+    content: "Car Details: ";
+    position: relative;
+    left: 1em;
+    top: 0em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+carInformation {
+    background-color: lightgrey;
+    display: block;
+    border: 5px solid green;
+    top: -3.5em;
+    margin: 5px 50px;
+    width: 500px;
+    height: 27em;
+    position: relative;
+    
+    float: left;
+} 
+
+carInformation::after {
+    content: "Car Type: " attr(carType);
+    position: absolute;
+    left: 22em;
+    top: 0em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+
+model::before {
+    content: "Model: ";
+}
+
+model {
+    position: relative;
+    left: 5em;
+    top: 1em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    display: list-item;
+}
+
+color::before {
+    content: "Color: ";
+}
+
+color {
+    position: relative;
+    left: 5em;
+    top: 1.5em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    display: list-item;
+}
+
+seatCapacity::before {
+    content: "Seat Capacity: ";
+}
+
+seatCapacity {
+    position: relative;
+    left: 5em;
+    top: 2em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    display: list-item;
+}
+
+dimension::before {
+    content: "Dimension: ";
+}
+
+dimension {
+    position: relative;
+    left: 5em;
+    top: 2.5em;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    display: list-item;
+}
+
+moreInfo::before {
+    content: "Car Number: " attr(itemNumber);
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+moreInfo {
+    background-color: lightgrey;
+    display: block;
+    border: 5px solid lightsteelblue;
+    top: 3.5em;
+    margin: 5px 20px;
+    width: 200px;
+    height: 15em;
+    position: relative;
+    float: left;
+} 
+
+
+
+price::before{
+    content: "$";
+}
+
+price {
+    position: relative;
+    left: 9.2em;
+    top: 0em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+    
+}
+
+quality::before{
+    content: "Quality: ";
+}
+
+quality {
+    position: relative;
+    left: 0em;
+    top: 0em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+totalkm::before{
+    content: "KM Travelled: ";
+}
+
+totalkm {
+    position: relative;
+    left: 0em;
+    top: 0.5em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+fuelCapacity::before{
+    content: "Fuel Capacity: ";
+}
+
+fuelCapacity {
+    position: relative;
+    left: 0em;
+    top: 1em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+cylinderCapacity::before{
+    content: "Cylinder Capacity: ";
+}
+
+cylinderCapacity {
+    position: relative;
+    left: 0em;
+    top: 1.5em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+horsePower::before{
+    content: "Horse Power: ";
+}
+
+horsePower {
+    position: relative;
+    left: 0em;
+    top: 2em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+brake::before{
+    content: "Brake: ";
+}
+
+brake {
+    position: relative;
+    left: 0em;
+    top: 2em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+engineType::before{
+    content: "Engine Type: ";
+}
+
+engineType {
+    position: relative;
+    left: 0em;
+    top: 2.5em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+
+topBodyMaterial::before{
+    content: "Top Body material: ";
+}
+
+topBodyMaterial {
+    position: relative;
+    left: 0em;
+    top: 3em;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}

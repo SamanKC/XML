@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="catalog_18028930.css" ?>
+<onlineShop xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="catalog_18028930.xsd" shopNumber="1507">
+	<logo />
+	<shopName>Wheels and Deals</shopName>
+	<address>Salakpur-8, Morang, Nepal</address>
+	<telephone>
+		<!-- <mobile>9862221655</mobile> -->
+		<landline>021545148</landline>	
+	</telephone>
+	<websiteAddress>wheelsanddeals@autoshop.com</websiteAddress>
+	<available_Cars>17</available_Cars>
+	<email>wheelsanddeals@gmail.com</email>
+
+	<items>
+		<item brandName="Veloster">
+			<description>The 2020 Hyundai Veloster has an engaging ride and a user-friendly infotainment system. However, it sits midpack in our compact car rankings because some competitors offer slightly better performance and nicer interiors.</description>
+			<quantity>4</quantity>
+			<manufacturer>Hyundai</manufacturer>
+
+			<carInformation carType="Fuel" yearModel="2018">
+				<model>HatchBack</model>
+				<color>White</color>
+				<seatCapacity>4</seatCapacity>
+				<dimension>4240 x 1800 x 1400</dimension>
+
+				<moreInfo itemNumber="1">
+					<price>1000000</price>
+					<quality>A</quality>
+					<totalkm>10000</totalkm>
+					<fuelCapacity>45</fuelCapacity>
+					<cylinderCapacity>1591</cylinderCapacity>
+					<horsePower>89bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>L-Type</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+				<moreInfo itemNumber="2">
+					<price>600000</price>
+					<quality>B</quality>
+					<totalkm>16000</totalkm>
+					<fuelCapacity>45</fuelCapacity>
+					<cylinderCapacity>1591</cylinderCapacity>
+					<horsePower>89bhp</horsePower>
+					<brake>Hydralic</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Soft top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+			<carInformation carType="Hybrid" yearModel="2016">
+				<model>SUV</model>
+				<color>Gray</color>
+				<seatCapacity>4</seatCapacity>
+				<dimension>4240 x 1800 x 1400</dimension>
+
+				<moreInfo itemNumber="3">
+					<price>300000</price>
+					<quality>C</quality>
+					<totalkm>20000</totalkm>
+					<fuelCapacity>45</fuelCapacity>
+					<cylinderCapacity>1591</cylinderCapacity>
+					<brake>Air</brake>
+					<engineType>In-line</engineType>
+					<topBodyMaterial>Soft top</topBodyMaterial>
+				</moreInfo>
+
+				<moreInfo itemNumber="4">
+					<price>500000</price>
+					<quality>B</quality>
+					<totalkm>14600</totalkm>
+					<fuelCapacity>45</fuelCapacity>
+					<cylinderCapacity>1591</cylinderCapacity>
+					<horsePower>89bhp</horsePower>
+					<brake>Hydralic</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Soft top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+		</item>
+
+		<item brandName="Creta">
+			<description>With a breathtakingly beautiful and edgy design, the All New CRETA has been crafted to command respect. The bold exterior and the new masculine stance will set you apart from every other SUV on the road.</description>
+			<quantity>3</quantity>
+			<manufacturer>Hyundai</manufacturer>
+
+			<carInformation carType="Fuel" yearModel="2018">
+				<model>SUV</model>
+				<color>White</color>
+				<seatCapacity>6</seatCapacity>
+				<dimension>4270 x 1900 x 1500</dimension>
+
+				<moreInfo itemNumber="5">
+					<price>2000000</price>
+					<quality>B</quality>
+					<totalkm>15000</totalkm>
+					<fuelCapacity>40</fuelCapacity>
+					<cylinderCapacity>1700</cylinderCapacity>
+					<brake>Disc</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+				<moreInfo itemNumber="6">
+					<price>1800000</price>
+					<quality>B</quality>
+					<totalkm>19000</totalkm>
+					<fuelCapacity>40</fuelCapacity>
+					<cylinderCapacity>1700</cylinderCapacity>
+					<horsePower>110bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>In-line</engineType>
+				</moreInfo>
+
+			</carInformation>
+
+			<carInformation carType="Electric" yearModel="2019">
+				<model>SUV</model>
+				<color>Black</color>
+				<seatCapacity>6</seatCapacity>
+
+				<moreInfo itemNumber="7">
+					<price>300000</price>
+					<quality>A</quality>
+					<totalkm>10000</totalkm>
+					<fuelCapacity>45</fuelCapacity>
+					<cylinderCapacity>1700</cylinderCapacity>
+					<horsePower>110bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>V-Type</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+
+
+			</carInformation>
+
+		</item>
+
+		<item brandName="Tundra">
+			<description>The 2020 Toyota Tundra is the oldest pickup truck this class, but it has the most standard safety technology and solid off-road cred. </description>
+			<quantity>4</quantity>
+			<manufacturer>Toyota</manufacturer>
+
+			<carInformation carType="Fuel" yearModel="2018">
+				<model>CrossOver</model>
+				<color>Blue</color>
+				<seatCapacity>5</seatCapacity>
+				<dimension>4200 x 1600 x 1400</dimension>
+
+				<moreInfo itemNumber="8">
+					<price>2500000</price>
+					<quality>B</quality>
+					<totalkm>220000</totalkm>
+					<fuelCapacity>50</fuelCapacity>
+					<cylinderCapacity>1300</cylinderCapacity>
+					<horsePower>100bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>Radial</engineType>
+				</moreInfo>
+
+				<moreInfo itemNumber="9">
+					<price>350000</price>
+					<quality>A</quality>
+					<totalkm>9000</totalkm>
+					<fuelCapacity>50</fuelCapacity>
+					<cylinderCapacity>1300</cylinderCapacity>
+					<horsePower>100bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>V-Type</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+			<carInformation carType="Fuel" yearModel="2020">
+				<model>CrossOver</model>
+				<color>Red</color>
+				<seatCapacity>7</seatCapacity>
+
+				<moreInfo itemNumber="10">
+					<price>400000</price>
+					<quality>A</quality>
+					<totalkm>4000</totalkm>
+					<fuelCapacity>50</fuelCapacity>
+					<cylinderCapacity>1500</cylinderCapacity>
+					<horsePower>105bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+				<moreInfo itemNumber="11">
+					<price>350000</price>
+					<quality>B</quality>
+					<totalkm>19000</totalkm>
+					<fuelCapacity>50</fuelCapacity>
+					<cylinderCapacity>1300</cylinderCapacity>
+					<horsePower>100bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>V-Type</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+		</item>
+
+		<item brandName="i20">
+			<description>Hyundai's "Fluidic Sculpture 2.0" design philosophy is strengthened by dynamically stretched headlamps and the precise surface contouring. The purposeful stance of new i20 is further enhanced by the “floating roof” effect created by the gloss black C-pillar.</description>
+			<quantity>3</quantity>
+			<manufacturer>Hyundai</manufacturer>
+
+			<carInformation carType="Fuel" yearModel="2018">
+				<model>HatchBack</model>
+				<color>Silver</color>
+				<seatCapacity>5</seatCapacity>
+				<dimension>4035 x 1474 x 1734</dimension>
+
+				<moreInfo itemNumber="12">
+					<price>1600000</price>
+					<quality>B</quality>
+					<totalkm>13000</totalkm>
+					<fuelCapacity>30</fuelCapacity>
+					<cylinderCapacity>1248</cylinderCapacity>
+					<horsePower>84bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>Radial</engineType>
+				</moreInfo>
+
+
+			</carInformation>
+
+			<carInformation carType="Hybrid" yearModel="2016">
+				<model>SUV</model>
+				<color>Blue</color>
+				<seatCapacity>5</seatCapacity>
+
+				<moreInfo itemNumber="13">
+					<price>1000000</price>
+					<quality>C</quality>
+					<totalkm>28000</totalkm>
+					<fuelCapacity>30</fuelCapacity>
+					<cylinderCapacity>1248</cylinderCapacity>
+					<horsePower>84bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>L-Type</engineType>
+					<topBodyMaterial>Soft top</topBodyMaterial>
+				</moreInfo>
+
+				<moreInfo itemNumber="14">
+					<price>1200000</price>
+					<quality>B</quality>
+					<totalkm>13000</totalkm>
+					<fuelCapacity>30</fuelCapacity>
+					<cylinderCapacity>1248</cylinderCapacity>
+					<horsePower>84bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+		</item>
+
+		<item brandName="jazz">
+			<description>The compact utility vehicle is a full package of style, class and comfort in a small box.</description>
+			<quantity>3</quantity>
+			<manufacturer>Honda</manufacturer>
+
+			<carInformation carType="Fuel" yearModel="2016">
+				<model>HatchBack</model>
+				<color>Blue</color>
+				<seatCapacity>4</seatCapacity>
+				<dimension>3800 x 1500 x 1300</dimension>
+
+				<moreInfo itemNumber="15">
+					<price>1500000</price>
+					<quality>A</quality>
+					<totalkm>9000</totalkm>
+					<fuelCapacity>35</fuelCapacity>
+					<cylinderCapacity>800</cylinderCapacity>
+					<horsePower>80bhp</horsePower>
+					<brake>Air</brake>
+					<engineType>In-line</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+
+				<moreInfo itemNumber="16">
+					<price>1700000</price>
+					<quality>A</quality>
+					<totalkm>11000</totalkm>
+					<fuelCapacity>35</fuelCapacity>
+					<cylinderCapacity>800</cylinderCapacity>
+					<horsePower>80bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>V-Type</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+			<carInformation carType="Hybrid" yearModel="2019">
+				<model>HatchBack</model>
+				<color>Black</color>
+				<seatCapacity>4</seatCapacity>
+				<dimension>3800 x 1500 x 1300</dimension>
+
+				<moreInfo itemNumber="17">
+					<price>1800000</price>
+					<quality>A</quality>
+					<totalkm>15300</totalkm>
+					<fuelCapacity>35</fuelCapacity>
+					<cylinderCapacity>800</cylinderCapacity>
+					<horsePower>80bhp</horsePower>
+					<brake>Disc</brake>
+					<engineType>Radial</engineType>
+					<topBodyMaterial>Hard top</topBodyMaterial>
+				</moreInfo>
+
+			</carInformation>
+
+		</item>
+	</items>
+</onlineShop>
